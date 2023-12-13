@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title of the page -->
+    <title>Fitness</title>
+    <link rel="stylesheet" href="./css/Header.css">
+    <link rel="stylesheet" href="./css/fitness.css">
+    <!-- Font Awesome stylesheet link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <!-- <img src="./images/Fitness/lo.png" alt="Logo"> -->
+            <h1>U&I Fitness</h1>
+        </div>
+        <div class="nav">
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="PhysicalFitness.html">GET FIT</a></li>
+                    <li><a href="">NUTRITION</a></li>
+                    <li><a href="/Mind/Mental.html">MIND</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <!-- <li><a href="">MORE</a></li> -->
+                    <div class="dropdown">
+                        <button class="dropbtn">MORE
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">BMI Calculator</a>
+                            <a href="#">Fitness Tracker</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="ri">
+            <span class="mem"><a class="new" href="/Membership/MembershipForm.html">MEMBERSHIP</a></span>
+            <button href="reg.html" class="login">LOGIN</button>
+        </div>
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="PhysicalFitness.html">GET FIT</a>
+                <a href="">NUTRITION</a>
+                <a href="/Mind/Mental.html">MIND</a>
+                <a href="">ABOUT US</a>
+                <a><div class="dropdown">
+                    <button class="dropbtn">MORE
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">BMI Calculator</a>
+                        <a href="#">Fitness Tracker</a>
+                    </div>
+                </div></a>
+                <a class="new" href="/Membership/MembershipForm.html">MEMBERSHIP</a>
+                <a class="new" href="/Membership/MembershipForm.html">LOGIN</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <!-- Main content of the page -->
+    <main>
+        <!-- Category of physical fitness -->
+        <div class="fit">
+            <h2>Get Fit</h2>
+        </div>
+        <div class="fitn">
+            <div class="cat">
+                <a href="#workout">
+                    <h3 class="opt">Workout</h3>
+                    <div class="opt">
+                        <img src="./images/Fitness/work.jpg" alt="selfcare">
+                    </div>
+                </a>
+            </div>
+            <div class="cat">
+                <a href="#yoga">
+                    <h3 class="opt">Yoga</h3>
+                    <div class="opt">
+                        <img src="./images/Fitness/strengthen.jpg" alt="Stress">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- To book a personal trainer -->
+        <div class="training reveal" id="blur">
+            <div class="item3" id="personal">
+                <h3 class="items2">Personal Training</h3><br>
+                <div class="items2">
+                    <p id="per">When it comes to achieving your fitness goals, sometimes a little personalized guidance
+                        can make
+                        a world of difference. That's where personal training at U&I Fitness comes in.</p>
+                </div>
+                <div>
+                    <p id="book" onclick="Pop()"><a id="session">Book a session</a></p>
+                </div>
+            </div>
+            <div class="item3">
+                <video autoplay loop muted width="400" controls>
+                    <source src="images/Fitness/coach.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <!-- Become a member popup -->
+        <div id="pop">
+            <i id="close" class="fa fa-close" onclick="Close()"></i>
+            <img src="images/Fitness/book.png" alt="" id="popImg">
+            <h3>Become a member of U&I Fitness to access this!!!</h3>
+            <div>
+                <p id="meb"><a href="MembershipForm.html">Membership</a></p>
+            </div>
+        </div>
+        <!-- About Workout   -->
+        <div class="imageBlock">
+            <div class="workout">
+                <h2 id="workout">Workout</h2>
+            </div>
+        </div>
+
+        <div class="box reveal">
+            <!-- Home workout -->
+            <div class="item1">
+                <a href="https://www.livestrong.com/slideshow/1011587-15minute-workout-beginners/" target="_blank">
+                    <h3 class="items">Best 15 minutes At-home workout for begginers</h3><br>
+                    <div class="items">
+                        <img class="images" src="images/Fitness/Homeworkout.jpg" alt="Home Workout">
+                    </div>
+                    <p class="items">Beginning another work-out routine can be scary, particularly assuming you're new
+                        to
+                        wellness. Be that
+                        as it may, just sit back and relax!</p>
+                </a>
+            </div>
+            <!-- Workout during a 10 min break -->
+            <div class="item1">
+                <a href="https://www.livestrong.com/article/13776964-10-minute-full-body-mobility-workout/"
+                    target="_blank">
+                    <h3 class="items">Try This Full-Body Mobility Routine Next Time You Need a 10-Minute Break</h3>
+                    <div class="items">
+                        <img class="mob images" src="images/Fitness/mobility.jpg" alt="mobility">
+                    </div>
+                    <p class="items">Long days — and maybe even nights — spent at the computer can leave you feeling
+                        stiff, achy and in need
+                        of some self-care.</p>
+                </a>
+            </div>
+            <!-- Standing workout for back pain -->
+            <div class="item1">
+                <a href="https://www.livestrong.com/article/13777277-quick-standing-core-workout-back-pain/"
+                    target="_blank">
+                    <h3 class="items">A 10-Minute Standing Core Workout for People With Back Pain</h3>
+                    <div class="items">
+                        <img class="back" src="images/Fitness/back.jpg" alt="Back pain">
+                    </div>
+                    <p class="items">If you've experienced lower back pain before, you're far from alone.
+                    </p>
+                </a>
+            </div>
+            <!-- Equipment-Free Workout -->
+            <div class="item1" id="hide1">
+                <a href="https://www.livestrong.com/article/13777122-10-minute-full-body-workout/" target="_blank">
+                    <h3 class="items">Strengthen Your Entire Body in 10 Minutes With This Equipment-Free Workout</h3>
+                    <div class="items">
+                        <img class="run images" src="images/Fitness/strength.jpg" alt="Strength">
+                    </div>
+                    <p>Exercise is hard enough as it is. Mix in an overflowing schedule of tasks and fitting a workout
+                        into
+                        your
+                        day can seem impossible.</p>
+                </a>
+            </div>
+            <!-- Morning Workout -->
+            <div class="item1" id="hide2">
+                <a href="https://www.livestrong.com/article/13776178-best-morning-workouts/" target="_blank">
+                    <h3 class="items">A Week's Worth of Morning Workouts to Kick-Start Your Day</h3>
+                    <div class="items">
+                        <img class="back" src="images/Fitness/run.jpg" alt="">
+                    </div>
+                    <p class="items">Some people are ready to hit the gym as soon as the sun rises while others are a
+                        little less
+                        enthusiastic
+                        about exercise in the morning.</p>
+                </a>
+            </div>
+
+            <!-- Abs Workout -->
+            <div class="item1" id="hide3">
+                <a href="https://www.livestrong.com/article/13771379-5-minute-ab-workout-bed/" target="_blank">
+                    <h3 class="items">A 5-Minute Ab Workout You Can Do in Bed</h3>
+                    <div class="items">
+                        <img class="Abs images" src="images/Fitness/bed.jpg" alt="Bed">
+                    </div>
+                    <p class="items">Before you roll out of bed to start your long day, you can wake up your body and
+                        strengthen your core
+                        from the comfort of your mattress.</p>
+                </a>
+            </div>
+        </div>
+        <!-- Buttom to view more -->
+        <div class="btn-container">
+            <button id="toggle1" onclick="location.href= '#workout';show()">View More</button>
+        </div>
+        <!-- Tip to exercise -->
+        <section>
+            <div id="car" class="contain reveal">
+                <div id="tip"><video autoplay loop muted width="400">
+                        <source src="images/Fitness/tips.mp4" type="video/mp4">
+                    </video></div>
+                <div class="rig">
+                    <div class="content">
+                        <div class="item2">
+                            <h3>Tips for exercise newbies</h3>
+                            <div class="list">
+                                <ol>
+                                    <li class="tips" data-hover="You won't see huge results overnight, fam. So take your time as you transition
+                                    into your training.">SET REALISTIC GOALS </li>
+                                    <li class="tips" data-hover="Suggest that staying hydrated during a sweat sesh can help you maintain
+                                    performance, lower your heart rate, and keep your fluid levels on fleek.">DRINK UP
+                                    </li>
+                                    <li class="tips" data-hover="Try to eat 2-3 hours before your workout. Some delicious and nutritious choices:
+                                    Greek
+                                    yogurt with oats, brown rice with grilled chicken, or a protein smoothie. "> FUEL
+                                        SMART </li>
+                                    <li class="tips" data-hover="Consistency is more important than any specific program. “If you can find an
+                                    activity you enjoy and will consistently do, you'll be more likely to keep up with it rather
+                                    than
+                                    constantly starting and stopping,” he says."> CONSISTENCY IS KEY </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Yoga -->
+        <h2 id="yoga">Yoga</h2>
+        <div class="box reveal">
+            <!-- 10 yoga poses -->
+            <div class="item1">
+                <a href="https://www.livestrong.com/article/13717337-best-yoga-poses-for-beginners/" target="_blank">
+                    <h3 class="items">Yoga Curious? Try These 10 Poses for Beginners</h3>
+                    <div class="items" id="yogaImage">
+                        <img src="images/Fitness/10yoga.jpg" alt="Yoga">
+                    </div>
+                    <p class="items">Yoga can be intimidating to those new to it, and we wanted to shed some light on
+                        what it's all about,
+                        including some beginner poses to try.</p>
+                </a>
+            </div>
+            <!-- Yoga and walking workout -->
+            <div class="item1" id="yogaImage">
+                <a href="https://www.livestrong.com/article/13727905-30-minute-yoga-walking-workout/" target="_blank">
+                    <h3 class="items">A 30-Minute Yoga and Walking Workout to Burn Calories and Strengthen All Over</h3>
+                    <div class="items">
+                        <img src="images/Fitness/outdoor.jpg" alt="Outdoor">
+                    </div>
+                    <p class="items">It can be hard to fit cardio, strength training and stretching into a week of
+                        workouts, let alone a
+                        single session.</p>
+                </a>
+            </div>
+            <!-- Yoga to wind down -->
+            <div class="item1">
+                <a href="https://www.livestrong.com/article/13776944-20-minute-evening-yoga-flow/" target="_blank">
+                    <h3 class="items">A 20-Minute Yoga Flow to Wind Down in the Evening</h3>
+                    <div class="items" id="yogaImage">
+                        <img src="images/Fitness/windown.jpg" alt="Wind down">
+                    </div>
+                    <p class="items">It's not uncommon to find yourself tense, achy and weary after a long, hard day.
+                        Practicing yoga
+                        before
+                        bed can be a great way to relax and unwind, release stress and get a good night's sleep.</p>
+                </a>
+            </div>
+        </div>
+        <!-- Button to view more -->
+        <div class="btn-container">
+            <button id="toggle">Expore More</button>
+        </div>
+        <!-- Track your workout -->
+        <div class="track reveal">
+            <div class="rouImg">
+            </div>
+            <div class="plan">
+                <h3>Workout Plan Tracker to Keep a Track On Your Excersise Routine Step by Step
+                </h3>
+                <div class="btn-container">
+                    <button id="toggle">Try Now</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Footer of the web page -->
+    <footer>
+        <div class="footer-container">
+            <!-- Services Links -->
+            <div class="footer-links">
+                <p class="footer-title">Services</p>
+                <ul class="footer_data">
+                    <li><a href="#">Personal Training</a></li>
+                    <li><a href="#">Group Fitness Classes</a></li>
+                    <li><a href="#">Yoga and Pilates</a></li>
+                    <li><a href="#">Strength and Conditioning</a></li>
+                </ul>
+            </div>
+
+            <!-- Learn More Links -->
+            <div class="footer-links">
+                <p class="footer-title">Learn More</p>
+                <ul class="footer_data ">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+
+            <!-- Support Links -->
+            <div class="footer-links">
+                <p class="footer-title">Support</p>
+                <ul class="footer_data">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Address Section -->
+            <div class="footer-links address-alignment">
+                <p class="footer-title">Address</p><br>
+                <address>
+                    Humber River and 100 acres of parkland.<br>
+                    205 Humber College Blvd.,<br>
+                    Toronto, Ontario, Canada M9W 5L7
+                </address>
+            </div>
+        </div>
+        <hr>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-pinterest-square"></i></a>
+            <a href="#"><i class="fab fa-reddit-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+        </div>
+    </footer>
+    <!-- Javascript for fitness -->
+    <script src="fitness.js">
+
+    </script>
+</body>
