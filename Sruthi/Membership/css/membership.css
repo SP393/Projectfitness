@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Nunito&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Nunito&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+ul {
+    font-size: 17px;
+}
+
+.member {
+    width: 1060px;
+    height: 450px;
+    background-image: url('../images/Fitness/forms.jpg');
+    background-size: cover;
+    margin-left: -3%;
+    margin-top: -7.5%;
+    border-radius: 25px;
+}
+
+.formBox {
+    width: 1000px;
+    padding: 30px;
+    background-color: black;
+    margin: 50px auto;
+    box-shadow: 10px 5px 5px rgb(15, 15, 15);
+    border-radius: 25px;
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 1px solid rgb(250, 237, 222);
+    width: 500px;
+    padding-bottom: 10px;
+    margin-left: 40%;
+    padding-top: 20%;
+    color: rgb(250, 237, 222);
+    font-size: 55px;
+}
+
+.row {
+    margin-top: 10px;
+    line-height: 50px;
+    margin-left: -50%;
+    padding-bottom: 2%;
+}
+
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px rgb(31, 31, 31);
+    border-radius: 25px;
+    font-size: 15px;
+    border: 5px #5f4286 solid;
+    background-color: black;
+    color: rgb(250, 237, 222);
+}
+
+#email,
+#weight,
+#desired,
+#bmi,
+#dob,
+#phone,
+select {
+    width: 50%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: rgb(250, 237, 222);
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: rgba(250, 237, 222, 0.612);
+}
+
+#email {
+    width: 50%;
+}
+
+input[type="button"] {
+    width: 50%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 40%;
+    background-color: rgba(104, 73, 145, 0.537);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type="button"]:hover {
+    background-color: #5f4286
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.cal {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+option {
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+}
+
+.row a {
+    color: rgb(250, 237, 222)
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(250, 237, 222);
+}
+
+.side input[type="text"] {
+    width: 170%;
+}
+
+#zipcode {
+    width: 50%;
+}
+
+#street {
+    width: 170%;
+}
+
+.address label {
+    font-size: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.address {
+    padding-bottom: 5%;
+}
+
+.required {
+    color: rgb(255, 0, 234);
+}
+
+input[type="checkbox"] {
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+}
+
+#terms {
+    font-size: 15px;
+    justify-content: start;
+}
+
+#condition {
+    margin-top: 20%;
+    margin-right: -50%;
+    padding-left: -50%;
+}
+
+#right {
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+span,
+p {
+    color: rgb(209, 130, 41);
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+form p {
+    margin-top: -1%;
+}
+
+#phone {
+    width: 35%;
+}
+
+#complete {
+    display: none;
+    margin-left: 5%;
+}
+
+#complete img {
+    width: 30%;
+    margin-top: -9%;
+    margin-left: -15%;
+    float: right;
+}
+
+#complete h3 {
+    font-size: 39px;
+    color: rgb(250, 237, 222);
+    margin-top: 12%;
+}
+
+#complete p {
+    font-size: 25px;
+    margin-left: -4%;
+    color: #835fb3;
+}
+
+#meb {
+    padding-top: 8%;
+    padding-bottom: 14%;
+}
+
+#meb a {
+    color: rgb(250, 237, 222);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    /* background-color: #5c09c989; */
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 4px solid #835fb3;
+    padding: 8px 20px;
+    height: fit-content;
+    align-self: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+#meb a:hover {
+    color: black;
+    background-color: #835fb3;
+}
+
+@media only screen and (max-width: 1000px) {
+    .formBox {
+        width: 800px;
+    }
+
+    .member {
+        width: 760px;
+        height: 350px;
+        margin-left: -3.7%;
+        margin-top: -7.2%;
+    }
+
+    h2 {
+        font-size: 37px;
+        width: 400px;
+    }
+
+    input::placeholder {
+        font-size: 20px;
+    }
+
+    #email {
+        width: 80%;
+    }
+
+    .side input[type="text"] {
+        width: 180%;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    select {
+        font-size: 25px;
+    }
+
+    /* span, p{
+    padding-right: -3%;
+} */
+    label {
+        margin-bottom: 7px;
+        font-size: 25px;
+    }
+
+    .row {
+        line-height: 60px;
+        margin-left: -12%;
+    }
+
+    .side {
+        gap: 170px;
+    }
+
+    #zipcode {
+        width: 50%;
+    }
+
+    input[type="checkbox"] {
+        height: 1.9em;
+        width: 1.9em;
+        vertical-align: middle;
+    }
+
+    #terms {
+        font-size: 20px;
+    }
+
+    #condition {
+        margin-left: -25%;
+        padding-right: 10%;
+        line-height: 50px;
+        margin-top: 5%;
+    }
+
+    .address {
+        padding-bottom: 7%;
+    }
+
+    .address label {
+        font-size: 17px;
+    }
+
+    .cal {
+        font-size: 19px;
+        line-height: 40px;
+    }
+
+    .row {
+        padding-bottom: 5%;
+    }
+
+    input[type="button"] {
+        width: 50%;
+        padding: 15px;
+        margin-top: 40px;
+        margin-left: 30%;
+        background-color: #8155bac3;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+
+    form p {
+        font-size: 20px;
+        padding-top: 2%;
+        line-height: 30px;
+    }
+
+    #complete h3 {
+        font-size: 24px;
+    }
+
+    #meb a {
+        padding: 10px 30px;
+        font-size: 22px;
+        margin-left: 20%;
+    }
+
+    #complete img {
+        margin-top: -5%;
+    }
+
+    #gender {
+        width: 60%;
+    }
+
+    #phone {
+        width: 40%;
+    }
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title of the page -->
+    <title>Membership</title>
+    <link rel="stylesheet" href="./css/Header.css">
+    <link rel="stylesheet" href="./css/membership.css">
+    <!-- Font Awesome stylesheet link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/Footer.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <!-- <img src="./images/Fitness/lo.png" alt="Logo"> -->
+            <h1>U&I Fitness</h1>
+        </div>
+        <div class="nav">
+            <!-- Navigation -->
+             <nav>
+                <ul>
+                    <li><a href="/Fitness/PhysicalFitness.html">GET FIT</a></li>
+                    <li><a href="">NUTRITION</a></li>
+                    <li><a href="/Mind/Mental.html">MIND</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <!-- <li><a href="">MORE</a></li> -->
+                    <div class="dropdown">
+                        <button class="dropbtn">MORE
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">BMI Calculator</a>
+                            <a href="#">Fitness Tracker</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="ri">
+            <span class="mem"><a class="new" href="MembershipForm.html">MEMBERSHIP</a></span>
+            <button href="reg.html" class="login">LOGIN</button>
+        </div>
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="/Fitness/PhysicalFitness.html">GET FIT</a>
+                <a href="">NUTRITION</a>
+                <a href="/Mind/Mental.html">MIND</a>
+                <a href="">ABOUT US</a>
+                <a><div class="dropdown">
+                    <button class="dropbtn">MORE
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">BMI Calculator</a>
+                        <a href="#">Fitness Tracker</a>
+                    </div>
+                </div></a>
+                <a class="new" href="/Membership/MembershipForm.html">MEMBERSHIP</a>
+                <a class="new" href="/Membership/MembershipForm.html">LOGIN</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="formBox">
+            <div class="member">
+                <h2> U&I Fitness Membership</h2>
+            </div>
+            <!-- Message when form completed successfully -->
+            <div id="complete">
+                <img src="images/Fitness/member.png" alt="">
+                <h3>Congratulations and welcome to our exclusive membership program!</h3>
+                <p>Go ahaead and enjoy our member only special features</p>
+                <div>
+                    <p id="meb"><a href="MembershipForm.html">Go to Homepage</a></p>
+                </div>
+            </div>
+            <!-- Membership Form -->
+            <form>
+                <div class="row">
+                    <!-- Form field name -->
+                    <label for="fname">Name:<b class="required">*</b></label>
+                    <div class="side">
+                        <div class="line">
+                            <input type="text" id="fname" name="fname" placeholder="First Name">
+                            <p></p>
+                        </div>
+                        <div class="line">
+                            <input type="text" id="lname" name="lname" placeholder="Last Name">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Form field email -->
+                <div class="row">
+                    <label for="email">Email:<b class="required">*</b></label>
+                    <br />
+                    <input type="text" id="email" name="email">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <!-- Form field weight -->
+                    <label for="weight">Your current weight:<b class="required">*</b></label>
+                    <br />
+                    <input type="text" id="weight" name="weight" placeholder="In Kgs">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <!-- Form field desired weight -->
+                    <label for="desired">Your desired weight:</label>
+                    <br />
+                    <input type="text" id="desired" name="desired" placeholder="In Kgs">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <!-- Form field BMI -->
+                    <label for="bmi">BMI: <b class="required">*</b>
+                        <div class="cal">Don't know your BMI? Know your BMI from here <a href="">BMI
+                                Calculator</a></div>
+                    </label>
+                    <input type="text" id="bmi" name="bmi">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <!-- Form field DOB -->
+                    <label for="dob">Date of Birth:<b class="required">*</b></label>
+                    <br />
+                    <input type="date" id="dob" name="dob">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <!-- Form field gender -->
+                    <label for="gender">Gender:<b class="required">*</b></label>
+                    <br />
+                    <select id="gender" name="gender">
+                        <option value="none" selected disabled hidden>Select an Option</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <p></p>
+                </div>
+                <div class="row">
+                    <!-- Form field address -->
+                    <label for="street" id="address">Address:<b class="required">*</b></label>
+                    <p></p>
+                    <div class="side">
+                        <div class="address">
+                            <input type="text" id="street1" name="street">
+                            <label for="street">Street address 1<b class="required">*</b></label>
+                        </div>
+                        <div class="address">
+                            <input type="text" id="street" name="street">
+                            <label for="street">Street address 2</label>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <div class="address">
+                            <input type="text" id="city" name="city">
+                            <label for="city">City<b class="required">*</b></label>
+                        </div>
+                        <div class="address">
+                            <input type="text" id="state" name="state">
+                            <label for="state">State<b class="required">*</b></label>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <input type="text" id="zipcode" name="zipcode">
+                        <br />
+                        <label for="zipcode">ZIP Code<b class="required">*</b></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Form field phone number -->
+                    <label for="phone">Phone Number:<b class="required">*</b></label>
+                    <br />
+                    <input type="text" id="phone" name="phone" placeholder="(000)-000-0000">
+                    <p></p>
+                </div>
+                <!-- Form field checkbox confirmation -->
+                <div class="row" id="condition">
+                    <input id="checkbox" type="checkbox" />
+                    <label id="terms" for="checkbox"><b class="required">*</b> By signing up for our fitness membership,
+                        you agree to abide by
+                        the terms and conditions outlined here.<a href="#"> Terms and Conditions</a>.
+                    </label>
+                    <p></p>
+                </div>
+                <div class="row">
+                    <!-- Submit the membership form -->
+                    <input type="button" value="Submit" id="submit" onclick="location.href = '#fname';validate()">
+                </div>
+            </form>
+        </div>
+        <!-- Javascript for form -->
+        <script src="formValidation.js"></script>
+</body>
+
+</html>
+</main>
+<!-- Footer of the web page -->
+<footer>
+    <div class="footer-container">
+        <!-- Services Links -->
+        <div class="footer-links">
+            <p class="footer-title">Services</p>
+            <ul class="footer_data">
+                <li><a href="#">Personal Training</a></li>
+                <li><a href="#">Group Fitness Classes</a></li>
+                <li><a href="#">Yoga and Pilates</a></li>
+                <li><a href="#">Strength and Conditioning</a></li>
+            </ul>
+        </div>
+
+        <!-- Learn More Links -->
+        <div class="footer-links">
+            <p class="footer-title">Learn More</p>
+            <ul class="footer_data ">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+
+        <!-- Support Links -->
+        <div class="footer-links">
+            <p class="footer-title">Support</p>
+            <ul class="footer_data">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+
+        <!-- Address Section -->
+        <div class="footer-links address-alignment">
+            <p class="footer-title">Address</p><br>
+            <address>
+                Humber River and 100 acres of parkland.<br>
+                205 Humber College Blvd.,<br>
+                Toronto, Ontario, Canada M9W 5L7
+            </address>
+        </div>
+    </div>
+    <hr>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-pinterest-square"></i></a>
+        <a href="#"><i class="fab fa-reddit-square"></i></a>
+        <a href="#"><i class="fab fa-instagram-square"></i></a>
+    </div>
+</footer>
+</body>

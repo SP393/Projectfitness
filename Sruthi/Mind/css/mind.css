@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+/* body{
+    background-color: black;
+} */
+p,
+ul,
+ol {
+    font-size: 17px;
+}
+
+.videocontainer .video{
+  display: none;
+  margin-top: -4%;
+}
+video {
+    width: 78%;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.text{
+  position: absolute;
+  top: 40%;
+  left: 480px;
+  width: 40%;
+  text-align: center;
+  background-color: #3c0c7ac0;
+ padding-left: -30%;
+}
+.about{
+  font-size: 55px;
+  font-weight: bold;
+  color: blanchedalmond;
+  /* background-color: rgba(149, 137, 150, 0.778); */
+  border-radius: 25px;
+  margin-top: 10%;
+}
+.more{
+  font-size: 24px;  
+  text-align: center; 
+  font-weight: bolder; 
+  text-decoration: underline;
+  color: rgb(28, 6, 28);
+  margin-top: -10%;
+}
+.videocontainer .button{
+  position: absolute;
+  margin-left: 13%;
+  width: 73%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+  margin-top: -25%;
+}
+.videocontainer .button a{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  /* background: rgba(0, 0, 0, 0.8); */
+  font-size: 70px;
+  user-select: none;
+}
+.videocontainer .button a:hover{
+  color: purple;
+}
+.videocontainer .button .prev{
+  border-radius: 0 5px 5px 0;
+}
+
+.videocontainer .button .next{
+  border-radius: 5px 0 0 5px;
+}
+
+.dots{
+  text-align: center;
+  position: absolute;
+  /* bottom: 8px; */
+  left: 48%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px 10px;
+  height: 30px;
+  border-radius: 15px;
+margin-top: -5%;
+}
+
+.dot{
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #bbb;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.actives, .dot:hover{
+  background: rgb(104, 58, 95);
+}
+
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -0.1%;
+    margin-top: 5%;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -5%;
+    text-align: center;
+    color: rgb(250, 237, 222);
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.wellness {
+    padding: 170px;
+    margin: 2px 2px;
+    margin-top: -10%;
+    height: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.category {
+    padding: 1px;
+    margin: 2px;
+    padding-bottom: 8%;
+    background-color: #000000db;
+    box-shadow: 10px 5px 5px rgb(56, 56, 56);
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+.category h3 {
+    color: rgb(250, 237, 222);
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 1px;
+}
+
+.box {
+    padding: 10px;
+    margin: 1% auto;
+    height: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    /* background-color: #fff4bdcf; */
+}
+
+.box img {
+    width: 50%;
+    min-height: 100px;
+
+}
+
+.wellness img {
+    width: 60%;
+    height: 50%;
+}
+
+#stress {
+    margin-top: 7%;
+}
+
+.item1 {
+    padding: 10px;
+    margin: 40px;
+    /* background-color:transparent; */
+    }
+
+.items,
+p, h5 {
+    padding: 1px 30px;
+    color: rgb(250, 237, 222);
+}
+
+.category a {
+    color: rgb(250, 237, 222);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.category:hover {
+    transform: scale(1.1);
+}
+
+section {
+    /* min-height: 100vh;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2%;
+    background-color: #fff4bdcf;
+  }
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   
+    /* background-color: aqua; */
+  }
+  #selfcare {
+    width: 70%;
+    height: 500px;
+    background: url(/images/Mind/self1.jpg)
+      no-repeat center / cover;
+    border-radius: 8px;
+    margin-left: -2%;
+    transition: 1s;
+  }
+  #stress {
+    width: 70%;
+    height: 500px;
+    background: url(/images/Mind/stressed.jpg)
+      no-repeat center / cover;
+    border-radius: 8px;
+    margin-left: -2%;
+    transition: 1s;
+  }
+  #str{
+    margin-top: -1%;
+  }
+  #anxi {
+    width: 70%;
+    height: 500px;
+    background: url(/images/Mind/anx.jpg)
+      no-repeat center / cover;
+    border-radius: 8px;
+    margin-left: -2%;
+    transition: 1s;
+  }
+  #anx{
+    margin-top: 5%;
+  }
+  .right {
+    width: 30%;
+    min-height: 200px;
+    background-color: #3c0c7ac0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -100px;
+  }
+  .right h4{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(250, 237, 222);
+    margin-top: 20%;
+  }
+
+@media only screen and (max-width: 1000px) {
+    .box {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 120px;
+    }
+
+    #top {
+        margin-top: -5%;
+    }
+
+    h4 {
+        margin-top: -10%;
+    }
+    .container {
+        flex-direction: column;
+        width: 50%;
+        margin: 0 20px;
+        /* margin-top: -120%; */
+      }
+      .left {
+        width: 90%;
+        height: 400px;
+        margin-left: 80%;
+      }
+      .right {
+        width: 50%;
+        margin: 0;
+        margin-top: -20px;
+        margin-left: 80%;
+      }
+      .text{
+        position: absolute;
+        top: 68%;
+        left: 290px;
+        width: 40%;
+      }
+      .about{
+        font-size: 35px;
+      }
+      .videocontainer{
+        margin-top: -8%;
+      }
+      section{
+        margin-top: 7%;
+      }
+      #selfcare {
+        width: 70%;
+        height: 500px;
+        background: url(/images/Mind/self1.jpg)
+          no-repeat center / cover;
+        border-radius: 8px;
+        margin-left: 80%;
+        margin-top: 5%;
+        transition: 1s;
+      }
+      #stress {
+        width: 70%;
+        height: 500px;
+        background: url(/images/Mind/stressed.jpg)
+          no-repeat center / cover;
+        border-radius: 8px;
+        margin-left: 80%;
+        transition: 1s;
+      }
+      #str{
+        margin-top: -1%;
+      }
+      #anxi {
+        width: 70%;
+        height: 500px;
+        background: url(/images/Mind/anx.jpg)
+          no-repeat center / cover;
+        border-radius: 8px;
+        margin-left: 80%;
+        margin-top: -15%;
+        transition: 1s;
+      }
+      #anx{
+        margin-top: 12%;
+      }
+      .right{
+        margin-top: -10%;
+      }
+      .dots{
+        margin-left: -3%;
+      }
+      .wellness{
+        display: grid;
+        grid-template-columns: 2fr;
+        padding: 290px;
+        gap: 250px;
+      }
+      .category{
+        margin-top: -45%;
+      }
+      .category h3{
+font-size: 35px;
+      }
+      h2{
+        margin-top: 12%;
+      }
+      .videocontainer{
+        margin-top: -20%;
+      }
+      .videocontainer .video{
+        width: 100%;
+      }
+      .text{
+        top: 39%;
+        left: 300px;
+      }
+      .about{
+        font-size: 40px;
+      }
+      .more{
+        font-size: 28px; 
+      }
+      p,
+ul,
+ol {
+    font-size: 25px;
+}
+h5{
+  font-size: 35px;
+}
+.box{
+  padding-bottom: 5px;
+}
+section{
+  padding-bottom: 4%;
+}
+}

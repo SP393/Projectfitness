@@ -1,0 +1,96 @@
+footer {
+    background-color: #281C2D;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer-title {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Make the text bold for emphasis */
+    color: #fff;
+    /* Set the desired text color */
+    margin-bottom: 10px;
+    /* Add margin below the paragraph */
+}
+
+.footer-learn-more:hover {
+    color: #007bff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+    /* Add margin between h3 and ul */
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+}
+
+.address-alignment {
+    text-align: end;
+}
+
+/* Style for the social icons container */
+.social-icons {
+    margin-top: 20px;
+    /* Adjust the top margin as needed */
+    text-align: center;
+    /* Center-align the icons */
+}
+
+/* Style for individual social media icons */
+.social-icons a {
+    display: inline-block;
+    /* Display the icons horizontally */
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    margin-right: 10px;
+    /* Add spacing between icons */
+    color: #a3a6a8;
+    /* Set the color for the icons */
+    text-decoration: none;
+    /* Remove the default underline */
+}
+
+.social-icons a:hover {
+    color: #ff6a00;
+    /* Change the color on hover */
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer-title {
+        font-size: 18px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .address-alignment {
+        margin-right: 5%;
+    }
+}
