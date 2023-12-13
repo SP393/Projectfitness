@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Metadata and Stylesheet -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link rel="stylesheet" type="text/css" href="faq_design.css">
+    <!-- Font Awesome stylesheet link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Source+Serif+4:opsz,wght@8..60,300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Nunito&family=Nunito+Sans:opsz,wght@6..12,300&family=Quicksand&family=Source+Serif+4:opsz,wght@8..60,300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Nunito&family=Nunito+Sans:opsz,wght@6..12,300&family=Playfair+Display&family=Quicksand&family=Source+Serif+4:opsz,wght@8..60,300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Lato:wght@700&family=Libre+Baskerville:wght@700&family=Lora:wght@500&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Nunito&family=Nunito+Sans:opsz,wght@6..12,300&family=Playfair+Display&family=Quicksand&family=Source+Serif+4:opsz,wght@8..60,300&family=Titillium+Web:wght@200&display=swap">
+
+    <script src="faq.js" defer></script>
+
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <div class="logo">
+        <!-- <img src="./images/Fitness/lo.png" alt="Logo"> -->
+        <h1>U&I Fitness</h1>
+    </div>
+    <div class="nav">
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="PhysicalFitness.html">GET FIT</a></li>
+                <li><a href="">NUTRITION</a></li>
+                <li><a href="/Mind/Mental.html">MIND</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <!-- <li><a href="">MORE</a></li> -->
+                <div class="dropdown">
+                    <button class="dropbtn">MORE
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../bmi/bmi.html">BMI Calculator</a>
+                        <a href="#">Fitness Tracker</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="ri">
+        <span class="mem"><a class="new" href="/Membership/MembershipForm.html">MEMBERSHIP</a></span>
+        <button href="reg.html" class="login">LOGIN</button>
+    </div>
+    <div class="topnav">
+        <div id="myLinks">
+            <a href="/Mind/Mental.html">GET FIT</a>
+            <a href="">NUTRITION</a>
+            <a href="Mental.html">MIND</a>
+            <a href="">ABOUT US</a>
+            <a><div class="dropdown">
+                <button class="dropbtn">MORE
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../bmi/bmi.html">BMI Calculator</a>
+                    <a href="#">Fitness Tracker</a>
+                </div>
+            </div></a>
+            <a class="new" href="MembershipForm.html">MEMBERSHIP</a>
+            <a class="new" href="/Membership/MembershipForm.html">LOGIN</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+    <main>
+    <h1>Frequently Asked Questions</h1>
+
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search...">
+        <button type="button" id="search-button">Search</button>
+    </div>
+
+    <div class="faq" id="faqContainer">
+        <div class="faq-item">
+            <input type="checkbox" id="q1">
+            <label class="question" for="q1">How often should I exercise to maintain a healthy lifestyle?</label>
+            <div class="answer">
+                <p>It's recommended to engage in at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity per week, spread throughout the week for optimal health benefits.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q2">
+            <label class="question" for="q2">What's the importance of warming up before a workout?</label>
+            <div class="answer">
+                <p>Warming up increases blood flow to your muscles, loosens joints, and prepares your body for exercise, reducing the risk of injury.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q3">
+            <label class="question" for="q3">How can I stay motivated to exercise regularly?</label>
+            <div class="answer">
+                <p>Set clear fitness goals, find a workout buddy, vary your routine, and reward yourself for accomplishments to maintain motivation.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q4">
+            <label class="question" for="q4">Is it safe to exercise during pregnancy?</label>
+            <div class="answer">
+                <p>Yes, regular, moderate exercise is generally safe during pregnancy and can have numerous benefits for both you and your baby. Consult your healthcare provider for personalized advice.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q5">
+            <label class="question" for="q5">What's the best type of exercise for weight loss?</label>
+            <div class="answer">
+                <p>A combination of aerobic exercises (e.g., running, cycling) and strength training (e.g., weightlifting) is most effective for weight loss and overall health.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q6">
+            <label class="question" for="q6">How can I prevent workout-related injuries?</label>
+            <div class="answer">
+                <p>Proper form, gradual progression, listening to your body, and incorporating rest days are key to preventing injuries during workouts.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q7">
+            <label class="question" for="q7">What's the role of nutrition in fitness?</label>
+            <div class="answer">
+                <p>Nutrition plays a crucial role in supporting your fitness goals. Balanced meals with a mix of protein, carbs, and healthy fats help fuel your workouts and aid recovery.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q8">
+            <label class="question" for="q8">How long should I rest between sets during strength training?</label>
+            <div class="answer">
+                <p>Rest periods between sets can vary based on your goals. For muscle hypertrophy, 1-2 minutes of rest is common, while strength-focused workouts may require longer rest intervals.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q9">
+            <label class="question" for="q9">Are supplements necessary for fitness?</label>
+            <div class="answer">
+                <p>Most people can meet their nutritional needs through a well-balanced diet. Supplements should only be considered when advised by a healthcare professional.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="q10">
+            <label class="question" for="q10">What's the best way to track fitness progress?</label>
+            <div class="answer">
+                <p>Keep a fitness journal, track measurements, take progress photos, and regularly assess your performance to monitor your progress and stay motivated on your fitness journey.</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            
+            <div class="footer-links">
+                <p class="footer-title">Services</p>
+                <ul class="footer_data">
+                    <li><a href="#">Personal Training</a></li>
+                    <li><a href="#">Group Fitness Classes</a></li>
+                    <li><a href="#">Yoga and Pilates</a></li>
+                    <li><a href="#">Strength and Conditioning</a></li>
+                </ul>
+            </div>
+    
+            
+            <div class="footer-links">
+                <p class="footer-title">Learn More</p>
+                <ul class="footer_data ">
+                    <li><a href="#">About</a></li>
+                    <li><a href="../blog/blog.html">Blog</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="../faq/FAQ.html">FAQs</a></li>
+                </ul>
+            </div>
+    
+           
+            <div class="footer-links">
+                <p class="footer-title">Support</p>
+                <ul class="footer_data">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+    
+            
+            <div class="footer-links address-alignment">
+                <p class="footer-title">Address</p><br>
+                <address>
+                    Humber River and 100 acres of parkland.<br>
+                    205 Humber College Blvd.,<br>
+                    Toronto, Ontario, Canada M9W 5L7
+                </address>
+            </div>
+        </div>    
+        <hr>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-pinterest-square"></i></a>
+            <a href="#"><i class="fab fa-reddit-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
