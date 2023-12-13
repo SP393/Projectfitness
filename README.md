@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Project Tasklist
 
@@ -62,3 +63,6 @@ https://github.com/2023-Fall-ITC-5103-0NC/project-task-list-nayeem92/assets/4488
 
 - [Tutorials point](https://www.tutorialspoint.com/html/html_tables.htm): Tutorials and references for Tables
 
+=======
+# Projectfitness
+>>>>>>> 4a077fa77f8bcc7d869ab9ddd202221dc16b84ba
