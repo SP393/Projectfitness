@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="css/header1.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/f.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- title -->
+    <title>Contact Us</title>
+</head>
+
+
+<body>
+    </head>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="images-reg/lo.png" alt="Logo">
+            <h1>U&I Fitness</h1>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="">GET FIT</a></li>
+                    <li><a href="">NUTRITION</a></li>
+                    <li><a href="">MIND</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">MORE</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <span class="member">MEMBERSHIP</span>
+            <button href="login.html" class="login">LOGIN</button>
+        </div>
+    </header>
+    <!-- container class -->
+    <div class="container">
+        <!-- form -->
+        <form id="user-reg" action="" method="post">
+            <div class="top">
+                <h1>CONTACT US</h1>
+            </div>
+            <!-- account information fields -->
+            <fieldset id="signup">
+                <legend>Account Information</legend>
+                <div>
+                    <label for="name">Full Name: *</label>
+                    <input type="name" name="name" id="full_name" required maxlength="10" size="15">
+                    <span class="warning"></span>
+                </div>
+
+                <div>
+                    <label for="email">E-mail: *</label>
+                    <input type="email" name="email" id="email" required>
+                    <span class="warning"></span>
+                </div>
+<!-- 
+                <div>
+                    <label for="password">Password: *</label>
+                    <input type="password" name="password" id="password" required>
+                    <span class="warning"></span>
+                </div> -->
+
+                <div>
+                    <label for="number">Phone Number: *</label>
+                    <input type="number" name="number" id="number" required>
+                    <span class="warning"></span>
+                </div>
+
+
+            </fieldset>
+            <!-- setting fields -->
+            <fieldset id="details">
+                <legend>Details</legend>
+                <div>
+                    <label class="topic" for="address">Address:</label>
+                    <input type="address" name="address" id="address" required>
+                    <label class="topic" for="code">Postal Code:</label>
+                    <input type="code" name="code" id="code" required>
+                </div>
+
+                <!-- <div>
+                    <label class="topic" for="age">Age:</label>
+                    <input type="age" name="age" id="age" required>
+                </div> -->
+
+                <!-- <div>
+                    <label class="topic" for="gender">Gender:</label><br>
+                    <select name="" id="gender"> <br>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div> -->
+
+                <!-- <div>
+                    <label class="topic" for="goals">Fitness Goals:</label>
+                    <input type="checkbox" name="goals" id="goal0"><label class="in" for="goals">Weight Loss</label>
+                    <input type="checkbox" name="goals" id="goal1"><label for="goals">Muscle Gain</label>
+                    <input type="checkbox" name="goals" id="goal2"><label for="goals">Improving endurance</label><br>
+
+                </div> -->
+
+                <div>
+                    <label class="topic" for="settings">How did you hear about us?</label>
+                    <input type="radio" name="settings" id="searchEngine"><label for="searchEngine">Search
+                        Engine</label>
+                    <input type="radio" name="settings" id="wom"><label for="wom">Word of
+                        Mouth</label>
+                    <input type="radio" name="settings" id="other"><label for="other">Other</label><br>
+                </div>
+
+              
+
+                <div>
+                    <label class="topic" for="contact">Contact Via:</label>
+                    <select name="" id="contact">
+                        <option value="Email">Email</option>
+                        <option value="Mobile">Phone</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="topic" for="comments">Comments:</label><br>
+                    <textarea name="comments" id="comments" cols="50" rows="8"></textarea>
+                </div>
+
+                <div>
+                    <label class="topic" for="subscribe">Would you like to receive announcements about new products and
+                        special
+                        offers?</label>
+                    <input type="checkbox" name="offers" id="offers"><label for="offers">YES, I'd like to receive
+                        information about new products and special offers.</label><br>
+                </div>
+            </fieldset>
+            <!-- submit -->
+            <button id="btn" type="button">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <!-- Services Links -->
+            <div class="footer-links">
+                <p class="footer-title">Services</p>
+                <ul class="footer_data">
+                    <li><a href="#">Personal Training</a></li>
+                    <li><a href="#">Group Fitness Classes</a></li>
+                    <li><a href="#">Yoga and Pilates</a></li>
+                    <li><a href="#">Strength and Conditioning</a></li>
+                </ul>
+            </div>
+
+            <!-- Learn More Links -->
+            <div class="footer-links">
+                <p class="footer-title">Learn More</p>
+                <ul class="footer_data ">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+
+            <!-- Support Links -->
+            <div class="footer-links">
+                <p class="footer-title">Support</p>
+                <ul class="footer_data">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Address Section -->
+            <div class="footer-links address-alignment">
+                <p class="footer-title">Address</p><br>
+                <address>
+                    Humber River and 100 acres of parkland.<br>
+                    205 Humber College Blvd.,<br>
+                    Toronto, Ontario, Canada M9W 5L7
+                </address>
+            </div>
+        </div>
+        <hr>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-pinterest-square"></i></a>
+            <a href="#"><i class="fab fa-reddit-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+        </div>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+
+</html>
