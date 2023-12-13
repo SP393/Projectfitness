@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U&I Fitness</title>
+    <link rel="stylesheet" href="to-do-tracker.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Include the Slick carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <style>
+        /* Add some initial styles for the hover effect */
+        .exercise {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Define the styles for the hover effect */
+        .exercise:hover {
+            transform: scale(1.05);
+            /* You can adjust the scale factor based on your preference */
+        }
+    </style>
+
+</head>
+
+<body>
+    <header id="header-placeholder"></header>
+
+    <div class="container">
+
+    </div>
+    <div class="container">
+        <div class="head">
+            <h1>TO-DO #Chest Routine Tracker</h1>
+        </div>
+        <main>
+            <div class="grid-container">
+
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!-- Include the Slick carousel JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        // Initialize the Slick slider
+        $(document).ready(function () {
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000  // Set the time between slides in milliseconds (3 seconds in this example)
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Array of exercises with details
+            const exercises = [
+                {
+                    image: "images/exercise_1.jpg",
+                    title: "Step 1: Incline Bench Press",
+                    description: "The incline bench press is the best exercise to build the upper chest. Though I would recommend you perform this exercise with a barbell, but only after you master the dumbbell bench press. What’s important to also note is that using dumbbells for this will be initially harder. Because each dumbbell needs to be balanced by each arm, which further increases your core strength. Mastering this movement will also benefit from no muscular imbalances. After you can dumbbell bench 30kg, move onto a barbell because even the best chests in bodybuilding use barbell bench press as a staple exercise to develop their chest.",
+                },
+                {
+                    image: "images/exercise_2.jpg",
+                    title: "Step 2: Incline Fly",
+                    description: "The incline fly imitates you stretching out the chest muscle and then contracting it back, not by pressing, but by arching your hands and extending them outwards. Especially useful for taller athletes, the fly is a primary accessory movement that one should engage in after their pressing movements have been done. Start at 3 sets of 8-10 reps. To do the movement correctly, bend your elbows and extend your arms outward. Come back up slowly and remember to pull from your elbows, squeezing the chest at all times. To make this harder, slow the tempo of going down or coming back up. Never go super heavy on this exercise as it will damage your shoulder/rotator cuff areas.",
+                },
+                {
+                    image: "images/exercise_3.jpg",
+                    title: "Step 3: Dumbbell Pullover",
+                    description: "While it can be argued that this exercise is also for lats, it is a fantastic chest builder. However, many gym goers botch up this movement by swinging and jerking and using heavy weight. With a challenging weight in your hand, extend your hands backward to the point where you feel your lats contract. This should be done with your shoulders rested upon a flat bench. When coming back up, keep your hands steady and pull with your chest. When done correctly, the pullover, along with these other exercises, can grow your chest in six weeks. While performing a pullover, remember to keep the weight moderate and reps high.",
+                },
+                {
+                    image: "images/exercise_4.jpg",
+                    title: "Step 4: Flat Bench Press",
+                    description: "The king of upper body movements in some opinions, this is the first movement you will learn in the gym. Ironically it’s also the first movement you’ll have to unlearn in the gym. That’s because while it may seem like a normal exercise to add to your chest building routine, it’s not as simple as sitting down and pressing the weight up. Without going into too many technical details, always retract the shoulder blades before sitting onto the bench and keep your feet firmly planted. After this bring the bar down to your lower chest level and while pushing up, make sure the rep goes up fast. However do remember that for a chest workout for beginners this will be your primary movement so pay more attention to this exercise.",
+                },
+                {
+                    image: "images/exercise_5.jpg",
+                    title: "Step 5: Flat Dumbbell Fly",
+                    description: "With all flying movements, do remember as always to go slow and perform higher reps. The noticeable difference between this and the incline fly is that because you are on a flat bench press, the arch of the flying movement can be higher. Simply put, the stretching movement can be increased.",
+                },
+                {
+                    image: "images/exercise_6.jpg",
+                    title: "Step 6: Close Grip Bench Press",
+                    description: "A fantastic exercise not only for your chest but also to develop some thick triceps. Movement-wise it is identical to the flat bench press. What’s different? The grip length. Instead of grabbing onto the bar at greater than shoulder width, you will be gripping it close or at shoulder width, depending on your mobility level. What is important to note here is that while this is considered a tricep movement, you should be using this for your chest by using techniques such as trisets and giant sets. Do remember that the bar needs to be placed upon your palms and not on your fingers. A triset is three exercises performed back-to-back with no rest while a giant set is the same with four or more exercises.",
+                },
+            ];
+
+
+
+            // Get the grid container
+            const gridContainer = document.querySelector(".grid-container");
+
+            // Function to create exercise elements
+            function createExercise(exercise) {
+                const exerciseDiv = document.createElement("div");
+                exerciseDiv.classList.add("exercise");
+
+                const img = document.createElement("img");
+                img.classList.add("img-exercise-size");
+                img.src = exercise.image;
+                img.alt = exercise.title;
+
+                const h2 = document.createElement("h2");
+                h2.textContent = exercise.title;
+
+                const p = document.createElement("p");
+                p.textContent = exercise.description;
+
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.classList.add("task-checkbox");
+
+                exerciseDiv.appendChild(img);
+                exerciseDiv.appendChild(h2);
+                exerciseDiv.appendChild(p);
+                exerciseDiv.appendChild(checkbox);
+
+                return exerciseDiv;
+            }
+
+            // Loop through exercises and append to the grid container
+            exercises.forEach(exercise => {
+                const exerciseElement = createExercise(exercise);
+                gridContainer.appendChild(exerciseElement);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
