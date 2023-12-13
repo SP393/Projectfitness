@@ -1,0 +1,542 @@
+/* Reset some default styles for better consistency */
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/bgc.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #D22B2B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #5c3db5;
+}
+
+
+
+#container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #030303;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #D22B2B;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default underline */
+}
+
+button:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #281C2D;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-learn-more:hover {
+    color: #007bff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+}
+
+.address-alignment {
+    text-align: end;
+}
+
+/* Style for the social icons container */
+.social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style for individual social media icons */
+.social-icons a {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff6a00;
+}
+
+/* Add styles to align the BMI content to the left and create space */
+.bmi-guide-section {
+    background-color: #311f35;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: left;
+
+    h2, h3, p, ul {
+        margin: 10px 0;
+    }
+}
+
+.bmi-guide-section h2 {
+    font-size: 1.8em;
+    margin: 0;
+    color: #dac9c9;
+    text-transform: uppercase;
+}
+
+.bmi-guide-section h3 {
+    font-size: 1.4em;
+    color: #dac9c9;
+}
+
+.bmi-guide-section p {
+    font-size: 1.2em;
+    color: #dac9c9;
+}
+
+.bmi-guide-section ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 1.2em;
+    color: #dac9c9;
+}
+
+.bmi-guide-section li {
+    margin: 5px 0;
+}
+
+/* Add margin to the top and bottom of headings and paragraphs */
+.bmi-guide-section h2,
+.bmi-guide-section h3,
+.bmi-guide-section p {
+    margin: 10px 0;
+}
+
+/* Add margin to the top of the unordered list */
+.bmi-guide-section ul {
+    margin-top: 10px;
+}
+
+.image-slider {
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* For screens with a max width of 576px (small screens like phones) */
+@media (max-width: 576px) {
+
+    main .title h1 {
+        font-size: 1.2rem;
+    }
+
+    .footer-title {
+        font-size: 1.2rem;
+    }
+}
+
+/* For screens with a max width of 768px (tablets and small laptops) */
+@media (max-width: 768px) {
+    main {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    label {
+        margin: 10px 0;
+    }
+
+    input[type="number"] {
+        margin: 4px 0;
+    }
+}
+
+/* For screens with a max width of 768px */
+@media (max-width: 768px) {
+    footer {
+        padding: 20px 0;
+    }
+
+    .footer-title {
+        font-size: 1.2rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+
+    .address-alignment {
+        text-align: center;
+    }
+}
+
+/* For screens with a max width of 576px (small screens like phones) */
+@media (max-width: 576px) {
+    footer {
+        padding: 20px 0;
+    }
+
+    .footer-title {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Nunito&family=Nunito+Sans:opsz,wght@6..12,300&family=Quicksand&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Nunito&family=Nunito+Sans:opsz,wght@6..12,300&family=Playfair+Display&family=Quicksand&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Lato:wght@700&family=Libre+Baskerville:wght@700&family=Lora:wght@500&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Nunito&family=Nunito+Sans:opsz,wght@6..12,300&family=Playfair+Display&family=Quicksand&family=Source+Serif+4:opsz,wght@8..60,300&family=Titillium+Web:wght@200&display=swap');
+
+body {
+    margin: 0%;
+    /* background-color: rgb(23,23,23); */
+}
+
+header {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -1%;
+    background-color: #8155ba;
+    padding: 20px 0;
+    /* position: fixed; */
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header>.logo {
+    display: flex;
+}
+
+header>.logo>img {
+    max-width: 150px;
+}
+
+header>.logo>h1 {
+    align-self: center;
+    font-size: 2.2em;
+    margin-left: -10%;
+    letter-spacing: 2px;
+    /* color: rgb(250, 237, 222); */
+}
+
+header>.nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+header>.nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+header>.nav>nav {
+    width: 100%;
+}
+
+header>.nav>nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header>.nav>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+header>.nav>nav>ul>li>a:hover {
+    text-decoration: underline rgb(1, 1, 1);
+    font-size: 17px;
+}
+
+header>.ri {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>.ri>.mem {
+    align-self: center;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+header>.ri>.mem>a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header>.ri>.mem:hover {
+    text-decoration: underline;
+}
+
+header>.ri>button {
+    background-color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: 4px solid black;
+    color: white;
+    padding: 8px 18px;
+    height: fit-content;
+    align-self: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.8s;
+    margin-left: 4%;
+}
+
+header>.ri>button:hover {
+    background-color: transparent;
+}
+
+header>.nav>nav>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.topnav {
+    display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    margin-top: -1%;
+    /* padding: 14px 16px; */
+    background-color: inherit;
+}
+
+.dropdown .dropbtn:hover{
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(250, 237, 222);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #3b2853;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header>.logo {
+        justify-content: center;
+        margin-left: -50%;
+    }
+
+    header>.logo>h1 {
+        margin-left: -2%;
+        font-size: 35px;
+    }
+
+    header>.nav {
+        display: none;
+    }
+
+    header>.ri {
+        display: none;
+    }
+
+    .topnav {
+        display: block;
+        background-color: #000000db;
+    }
+
+    .topnav #myLinks {
+        display: none;
+        background-color: #000000db;
+        margin-bottom: -2%;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 23px;
+        display: block;
+
+    }
+
+    .topnav #myLinks a {
+        padding: 23px;
+        text-align: center;
+    }
+
+    .topnav  a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 20px;
+        font-size: 50px;
+        color: black;
+    }
+
+    .topnav #myLinks a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .topnav #myLinks i a:hover {
+        color: black;
+    }
+
+    .dropdown {
+        float: none;
+        overflow: hidden;
+        margin-top: -4%;
+    }
+    
+
+    .dropdown .dropbtn {
+        font-size: 23px;
+        color: white;
+        font-weight: normal;
+    }
+    
+    .dropdown .dropbtn:hover{
+        text-decoration: underline;
+    }
+    
+    .dropdown-content {
+        margin-left: 39%;
+    }
+    
+    .dropdown-content a {
+        float: none;
+        color: white;
+        text-align: center;
+    }
+}
