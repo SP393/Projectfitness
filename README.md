@@ -20,6 +20,7 @@ This project contains a fitness website that is created using HTML, CSS and Java
 # Contents
 
 - Introduction
+- Deploy URL 
 -  All Features
 - Individual Features (includes) -
   - Feature Description
@@ -29,6 +30,10 @@ This project contains a fitness website that is created using HTML, CSS and Java
 
 # Introduction
 A fitness website where one can gain awareness on physical health, a balanced and nutritious diet along with maintaining good mental health. It is a one-stop destination for fitness enthusiasts as well as newbies looking to kickstart a healthier lifestyle.
+
+# Deploy URL
+
+https://jolly-lamington-68f0c0.netlify.app/manpreetg/home/
 
 # Features
 
@@ -51,6 +56,8 @@ A fitness website where one can gain awareness on physical health, a balanced an
 
  # Physical Fitness -
 
+ ![Alt text](image-2.png)
+
    This feature is enables users to access different routines on workout and yoga, also to book a personal trainer only if they are a member of the website. There are tips provided for beginners to learn about excersise and path to go checkout the fitness tracker.
 
    Technical specifications -
@@ -65,6 +72,8 @@ A fitness website where one can gain awareness on physical health, a balanced an
    JS File - Sruthi/Fitness/fitness.js
 
  # Mind Wellness -
+
+ ![Alt text](image-3.png)
 
    It provides users with information on different aspect of keeping their mental wellness like topic on Selfcare, Stress and Anxiety. 
 
@@ -82,6 +91,9 @@ A fitness website where one can gain awareness on physical health, a balanced an
  # Membership -
 
   It is a membership form for the users to become  member of the website and access more contents.
+
+![Alt text](image-1.png)
+ 
 
    Technical specifications -
    - Use HTML with form and semantic tags and included descriptive comments 
