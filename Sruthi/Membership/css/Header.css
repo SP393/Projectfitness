@@ -110,6 +110,13 @@ header>.ri>button {
     margin-left: 4%;
 }
 
+header>.ri>button>a {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+
 header>.ri>button:hover {
     background-color: transparent;
 }
@@ -139,7 +146,7 @@ header>.nav>nav>ul>li>a:hover {
     background-color: inherit;
 }
 
-.dropdown .dropbtn:hover{
+.dropdown .dropbtn:hover {
     text-decoration: underline;
 }
 
@@ -218,7 +225,7 @@ header>.nav>nav>ul>li>a:hover {
         text-align: center;
     }
 
-    .topnav  a.icon {
+    .topnav a.icon {
         display: block;
         position: absolute;
         right: 0;
@@ -241,22 +248,22 @@ header>.nav>nav>ul>li>a:hover {
         overflow: hidden;
         margin-top: -4%;
     }
-    
+
 
     .dropdown .dropbtn {
         font-size: 23px;
         color: white;
         font-weight: normal;
     }
-    
-    .dropdown .dropbtn:hover{
+
+    .dropdown .dropbtn:hover {
         text-decoration: underline;
     }
-    
+
     .dropdown-content {
         margin-left: 39%;
     }
-    
+
     .dropdown-content a {
         float: none;
         color: white;
