@@ -236,7 +236,7 @@ This feature involves basic front-end development skills. Familiarity with HTML,
 
 ## Screenshots
 <!-- Add images or screenshots related to the "About Us" feature -->
-![About Us](path/to/about_us_screenshot.png)
+![About Us](https://github.com/SP393/Projectfitness/blob/main/Screenshot%202023-12-14%20at%2015.26.48.png)
 
 ---
 
