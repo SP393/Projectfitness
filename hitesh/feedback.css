@@ -154,3 +154,9 @@ textarea {
     text-decoration: none;
     color: #fff;
 }
+
+.error{
+    color: red;
+    font-size: 19px;
+    font-weight: 400;
+}

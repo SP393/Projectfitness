@@ -13,3 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("footer-placeholder").innerHTML = data;
         });
 });
+
+// Function for hamburger navigation bar
+function hamburger() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}

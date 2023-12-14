@@ -213,4 +213,121 @@ References -
 - https://www.youtube.com/watch?v=92bkNXvnpmg
 - https://www.codeproject.com/Questions/853157/How-to-play-array-of-Videos-in-HTML
 
+# Features by - Hitesh Jha
 
+# About Us Feature
+
+## Description
+The "About Us" feature provides users with insights into the organization or team behind the application. It aims to share the mission, vision, and team members, fostering transparency and building a connection with users.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+The purpose of this feature is to create a sense of trust and familiarity by showcasing information about the organization or team.
+
+## Learning Curve
+This feature involves basic front-end development skills. Familiarity with HTML, CSS, and JavaScript is essential. Beginners can refer to the following web development websites for learning:
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [W3Schools](https://www.w3schools.com/)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+
+## Screenshots
+<!-- Add images or screenshots related to the "About Us" feature -->
+![About Us](path/to/about_us_screenshot.png)
+
+---
+
+# Feedback Feature
+
+## Description
+The "Feedback" feature enables users to share their thoughts, suggestions, or concerns about the application. It serves as a valuable tool for collecting user input to enhance the user experience.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+The purpose of this feature is to gather user feedback, allowing for continuous improvement of the application based on user perspectives.
+
+## Learning Curve
+This feature involves front-end development skills. Knowledge of HTML forms, CSS styling, and JavaScript for form validation is recommended. Learning resources:
+- [MDN Web Docs - Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+## Screenshots
+<!-- Add images or screenshots related to the "Feedback" feature -->
+![Feedback](path/to/feedback_screenshot.png)
+
+---
+
+# ToDo Tracker Feature
+
+## Description
+The "ToDo Tracker" feature empowers users to manage and track their tasks within the application. It provides a user-friendly interface for creating, editing, and organizing tasks.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+The purpose of this feature is to enhance user productivity by offering a tool to organize tasks, set priorities, and track progress.
+
+## Learning Curve
+This feature requires basic to intermediate front-end development skills. Understanding DOM manipulation using JavaScript and styling with CSS is beneficial. Learning resources:
+- [MDN Web Docs - JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [CSS-Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+## Screenshots
+<!-- Add images or screenshots related to the "ToDo Tracker" feature -->
+![ToDo Tracker](path/to/todo_tracker_screenshot.png)
+
+# Features by - Manpreet Kaur Gulati
+
+# Home Page - U&I Fitness
+
+## Description
+The "Home Page - U&I Fitness" is the main landing page for the U&I Fitness application. It serves as the entry point for users, providing an engaging and informative introduction to the application's features, goals, and offerings.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+The purpose of this feature is to create a visually appealing and user-friendly landing page that effectively communicates the mission and benefits of U&I Fitness, encouraging users to explore further.
+
+## Learning Curve
+Creating the "Home Page - U&I Fitness" involves fundamental front-end development skills. Beginner-friendly web development websites for learning:
+- [Mozilla Developer Network (MDN) Web Docs](https://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+
+## Screenshots
+<!-- Add images or screenshots related to the "Home Page - U&I Fitness" feature -->
+![Home Page - U&I Fitness](path/to/home_page_screenshot.png)
+
+---
+
+# Nutrition Page
+
+## Description
+The "Nutrition Page" within the U&I Fitness application provides users with valuable information about nutrition, diet plans, and healthy eating habits. It may include articles, recipes, and tips for maintaining a balanced diet.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+The purpose of this feature is to educate users about nutrition, offering guidance on making healthier food choices to complement their fitness journey.
+
+## Learning Curve
+Creating the "Nutrition Page" involves intermediate front-end development skills. Resources for learning:
+- [CSS-Tricks](https://css-tricks.com/)
+- [JavaScript.info](https://javascript.info/)
+- [Bootstrap Documentation](https://getbootstrap.com
