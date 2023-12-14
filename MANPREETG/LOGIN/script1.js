@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // If all validations pass, you can proceed with form submission
         alert('Form submitted successfully!');
     }
-
     // Attach the validateForm function to the form submission event
     loginForm.addEventListener('submit', validateForm);
     registerForm.addEventListener('submit', validateForm);

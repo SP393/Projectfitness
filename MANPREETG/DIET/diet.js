@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    
     // Helper function to get siblings of an element
     function siblings(element) {
         return Array.from(element.parentNode.children).filter(function (child) {

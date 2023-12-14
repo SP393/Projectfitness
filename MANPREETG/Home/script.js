@@ -41,7 +41,7 @@ var swiper = new Swiper(".home-slider", {
     loop:true,
     centeredSlides: true,
     autoplay: {
-      delay: 4000,
+      delay: 5000,
       disableOnInteraction: false,
     },
   });
@@ -54,7 +54,7 @@ var swiper = new Swiper(".feature-slider", {
     grabCursor: true,
     centeredSlides: true,
     autoplay: {
-        delay: 2000,
+        delay: 2500,
         disableOnInteraction: false,
       },
     breakpoints: {
@@ -79,7 +79,7 @@ var swiper = new Swiper(".trainer-slider", {
     grabCursor: true,
     centeredSlides: true,
     autoplay: {
-        delay: 2000,
+        delay: 4000,
         disableOnInteraction: false,
       },
     breakpoints: {
@@ -103,7 +103,7 @@ var swiper = new Swiper(".blogs-slider", {
   grabCursor: true,
   centeredSlides: true,
   autoplay: {
-      delay: 2000,
+      delay: 2500,
       disableOnInteraction: false,
     },
   breakpoints: {

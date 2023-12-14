@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <!-- external stylesheet -->
-    <link rel="stylesheet" href="css/header1.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/f.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="f.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- title -->
@@ -18,6 +18,59 @@
     </head>
     <!-- Header Section -->
     <header>
+        <div class="logo">
+            <!-- <img src="./images/Fitness/lo.png" alt="Logo"> -->
+            <h1>U&I Fitness</h1>
+        </div>
+        <div class="nav">
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="PhysicalFitness.html">GET FIT</a></li>
+                    <li><a href="/DIET/diet.html">NUTRITION</a></li>
+                    <li><a href="/Mind/Mental.html">MIND</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <!-- <li><a href="">MORE</a></li> -->
+                    <div class="dropdown">
+                        <button class="dropbtn">MORE
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">BMI Calculator</a>
+                            <a href="#">Fitness Tracker</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="ri">
+            <span class="mem"><a class="new" href="/Membership/MembershipForm.html">MEMBERSHIP</a></span>
+            <button href="/LOGIN/login.html" class="login">LOGIN</button>
+        </div>
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="/Mind/Mental.html">GET FIT</a>
+                <a href="/DIET/diet.html">NUTRITION</a>
+                <a href="Mental.html">MIND</a>
+                <a href="">ABOUT US</a>
+                <a><div class="dropdown">
+                    <button class="dropbtn">MORE
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">BMI Calculator</a>
+                        <a href="#">Fitness Tracker</a>
+                    </div>
+                </div></a>
+                <a class="new" href="MembershipForm.html">MEMBERSHIP</a>
+                <a class="new" href="/LOGIN/login.html">LOGIN</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <!-- <header>
         <div class="logo">
             <img src="images-reg/lo.png" alt="Logo">
             <h1>U&I Fitness</h1>
@@ -35,9 +88,9 @@
         </div>
         <div class="right">
             <span class="member">MEMBERSHIP</span>
-            <button href="login.html" class="login">LOGIN</button>
+            <button href="reg.html" class="login">LOGIN</button>
         </div>
-    </header>
+    </header> -->
     <!-- container class -->
     <div class="container">
         <!-- form -->
