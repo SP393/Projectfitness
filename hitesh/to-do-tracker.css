@@ -1,0 +1,95 @@
+.container {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-size: cover; */
+    background-repeat: repeat;
+    animation: backgroundRotation 12s infinite linear;
+    background-image: url('images/bg.jpg'); /* Set the initial background image */
+}
+
+@keyframes backgroundRotation {
+    0%, 100% { background-image: url('images/bg.jpg'); }
+    33% { background-image: url('images/bg-2.jpg'); }
+    66% { background-image: url('images/bg-3.jpg'); }
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6px;
+    /* margin: 20px; */
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.exercise {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+.task-checkbox {
+    display: none;
+}
+
+label {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task-checkbox:checked + label {
+    background-color: #2ecc71;
+}
+
+label:hover {
+    background-color: #2587c7;
+}
+
+.img-exercise-size{
+    width: 58%;
+    height: 28%;
+}
+
+@media screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .container > main {
+        padding: 38rem 2rem 4rem 2rem;
+    }
+}

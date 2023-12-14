@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Nanum+Myeongjo&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color:lavenderblush; */
+    /* background-image: url(images/derick-mckinney-__QqvTI5Edc-unsplash.jpg); */
+    background-image: url(images-reg/pexels-pixabay-260352.jpg);
+    display: block;
+
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    /* background-color: black;
+    color:#fff; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top h1 {
+    text-align: center;
+    color:black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+fieldset {
+    margin-top: 2%;
+}
+
+/* .topic{
+font-size: large;
+color:blueviolet
+} */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="name"],
+input[type="adress"],
+input[type="code"],
+input[type="age"],
+input[type="address"],
+input[type="number"],
+
+
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+}
+
+#btn {
+    background-color: #8155ba;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 45%;
+
+    &:hover {
+        background-color: black;
+    }
+}
+.warning{
+    color:blue;
+    padding-bottom: 10%;
+}
