@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" type="text/css" href="feedback.css">
+    <link rel="stylesheet" type="text/css" href="../hitesh/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header id="header-placeholder"></header>
+
+    <!-- Header Section Ends-->
+    <div class="feedbackcontainer">
+        <div class="feedbackform-item left-container gradient-custom-2 hidding-img">
+            <img class="customer-review-img" src="images/customer-review.png" alt="">
+            <img class="customer-star-img" src="images/star-rating-review.png" alt="">
+        </div>
+        <div class="feedbackform-item right-container">
+            <div class="header-form">
+                <h1>Feedback Form</h1>
+            </div>
+            <div class="form-data">
+                <form action="submit()" id="feedback" method="get" onsubmit="event.preventDefault(); submitForm();">
+                    <!-- Add error elements for each field -->
+                    <div id="name-error" class="error"></div>
+                    <div id="email-error" class="error"></div>
+                    <div id="visit-error" class="error"></div>
+                    <div id="find-error" class="error"></div>
+                    <input type="text" name="name" id="name" placeholder="Name"><br><br>
+                    <input type="email" name="email" placeholder="Email"><br><br>
+
+                    <label for="visit">Is this your first visit to the website?</label><br>
+                    <input type="radio" name="visit" id="visit" value="Yes"> Yes
+                    <input type="radio" name="visit" id="visit" value="No"> No <br><br>
+
+                    <label for="find_question">Were you able to find what you needed?</label><br>
+                    <input type="radio" name="find" id="find" value="Yes"> Yes
+                    <input type="radio" name="find" id="find" value="No"> No <br><br>
+
+                    <label for="routine_question">Is this easy to find a workout routine on this site?</label><br>
+                    <select id="routine_question">
+                        <option value="very_easy">Very easy</option>
+                        <option value="easy" selected>Easy</option>
+                        <option value="average">Average</option>
+                        <option value="difficult">Difficult</option>
+                        <option value="very_difficult">Very Difficult</option>
+                    </select> <br><br>
+
+                    <label for="return_question">What is the likelihood that you will return to the site?</label><br>
+                    <select id="return_question">
+                        <option value="extremely_likely">Extremely Likely</option>
+                        <option value="very_likely" selected>Very Likely</option>
+                        <option value="moderately_likely">Moderately Likely</option>
+                        <option value="slightly_likely">Slightly Likely</option>
+                        <option value="unlikely">Unlikely to Return</option>
+                    </select> <br><br>
+
+                    <label for="satisfied_question">How satisfied are you with our services?</label><br>
+                    <select id="satisfied_question">
+                        <option value="extremely_likely">Very Satisfied</option>
+                        <option value="very_likely" selected>Satisfied</option>
+                        <option value "moderately_likely">Neutral</option>
+                        <option value="slightly_likely">Unsatisfied</option>
+                        <option value="unlikely">Very Unsatisfied</option>
+                    </select> <br><br>
+
+                    <label for="improvement_box">How can we improve our services?</label><br>
+                    <textarea name="improvement_box" id="improvement_box" cols="30" rows="10"></textarea><br><br>
+
+                    <label for="contact_question">Would you like a representative to contact you?</label><br>
+                    <input type="radio" name="contact_question" id="contact_question" value="Yes"> Yes
+                    <input type="radio" name="contact_question" id="contact_question" value="No"> No <br><br>
+
+                    <div class="submit-container">
+                        <input class="myButton" type="submit" name="submit" id="submit" value="SUBMIT">
+                        <input class="myButton" type="reset" id="reset" name="reset" value="RESET">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="footer-placeholder"></footer>
+    <script src="scripts.js"></script>
+    <script src="form-validation.js"></script>
+</body>
+
+</html>
