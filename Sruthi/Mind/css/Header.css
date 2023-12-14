@@ -188,7 +188,7 @@ header>.nav>nav>ul>li>a:hover {
 
     header>.logo>h1 {
         margin-left: -2%;
-        font-size: 35px;
+        font-size: 55px;
     }
 
     header>.nav {
@@ -228,8 +228,8 @@ header>.nav>nav>ul>li>a:hover {
         display: block;
         position: absolute;
         right: 0;
-        top: 20px;
-        font-size: 50px;
+        top: 40px;
+        font-size: 70px;
         color: black;
     }
 

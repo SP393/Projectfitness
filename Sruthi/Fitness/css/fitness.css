@@ -56,7 +56,9 @@ a {
   color: black;
 }
 
-#hide1, #hide2, #hide3{
+#hide1,
+#hide2,
+#hide3 {
   display: none;
 }
 
@@ -82,7 +84,8 @@ a {
   padding: 10px 10px;
   color: rgb(250, 237, 222);
 }
-.item1 p{
+
+.item1 p {
   color: rgb(250, 237, 222);
 }
 
@@ -114,6 +117,7 @@ a {
   text-align: center;
   color: #000;
 }
+
 section {
   /* min-height: 100vh;
   width: 100%; */
@@ -122,6 +126,7 @@ section {
   justify-content: flex-start;
 
 }
+
 .contain {
   width: 90%;
   max-width: 1000px;
@@ -132,6 +137,7 @@ section {
   background-color: #fff4bdcf;
   padding-bottom: 8%;
 }
+
 #tip video {
   width: 150%;
   height: 600px;
@@ -140,6 +146,7 @@ section {
   transition: 1s;
   margin-top: -70%;
 }
+
 .rig {
   width: 40%;
   min-height: 200px;
@@ -152,12 +159,14 @@ section {
   margin-left: -100px;
   padding-top: 90%;
 }
+
 ol {
   margin-top: -9%;
   padding: 0;
   list-style-type: none;
   counter-reset: apples;
 }
+
 ol li:before {
   content: counter(apples);
   counter-increment: apples;
@@ -175,7 +184,8 @@ ol li {
   list-style: none;
   margin-left: -30%;
 }
-.tips{
+
+.tips {
   color: rgb(250, 237, 222);
   letter-spacing: 2px;
   font-weight: bold;
@@ -184,7 +194,7 @@ ol li {
   font-size: 18px;
   letter-spacing: 2px;
   border: 4px solid rgb(81, 62, 105);
-  padding:10px 70px;
+  padding: 10px 70px;
   height: fit-content;
   align-self: center;
   cursor: pointer;
@@ -192,25 +202,30 @@ ol li {
   margin-top: 8%;
   margin-left: 7%;
 }
+
 .tips:hover {
   font-size: 0;
 }
+
 .tips:hover:before {
   font-size: 20px;
   content: attr(data-hover);
   color: black;
 }
-ol li:hover{
+
+ol li:hover {
   background-color: rgb(177, 142, 223);
-  color:black;
+  color: black;
   margin-left: -20%;
   margin-right: -20%;
   letter-spacing: 2px;
 }
+
 #yogaImage img {
   width: 50%;
 
 }
+
 .fitn {
   padding: 290px;
   margin: 2px 2px;
@@ -220,7 +235,8 @@ ol li:hover{
   grid-template-columns: 1fr 1fr;
   gap: 170px;
 }
-.fit h2{
+
+.fit h2 {
   text-align: center;
   margin-left: 2%;
   margin-top: 3%;
@@ -250,10 +266,12 @@ ol li:hover{
   margin-left: -40%;
   margin-right: -40%;
 }
+
 .fitn img {
   width: 40%;
   height: 30%;
 }
+
 .cat a {
   color: rgb(250, 237, 222);
 }
@@ -304,7 +322,7 @@ html {
   font-weight: bold;
   font-size: 45px;
   font-family: 'Lato', sans-serif;
-  color:black;
+  color: black;
 }
 
 #per {
@@ -312,10 +330,12 @@ html {
   text-align: center;
   margin-top: -5%;
 }
-#book{
+
+#book {
   padding-top: 8%;
 }
-#book a{
+
+#book a {
   color: #201f21;
   font-weight: bold;
   text-align: center;
@@ -323,7 +343,7 @@ html {
   font-size: 20px;
   letter-spacing: 2px;
   border: 4px solid #201f21;
-  padding:10px 40px;
+  padding: 10px 40px;
   height: fit-content;
   align-self: center;
   border-radius: 20px;
@@ -333,9 +353,9 @@ html {
   margin-left: 25%;
 }
 
-#book a:hover{
-color: #DEBAD6;
-background-color: black;
+#book a:hover {
+  color: #DEBAD6;
+  background-color: black;
 }
 
 .btn-container {
@@ -353,7 +373,13 @@ background-color: black;
   color: rgb(250, 237, 222);
 
 }
-#pop{
+
+.btn-container button a {
+  color: rgb(250, 237, 222);
+  font-size: 18px;
+}
+
+#pop {
   display: none;
   width: 25%;
   background: #392a4d;
@@ -362,18 +388,21 @@ background-color: black;
   top: 1000px;
   left: 600px;
 }
-#pop h3{
+
+#pop h3 {
   font-size: 25px;
   text-align: center;
   padding-left: 4%;
   padding-right: 4%;
   color: rgb(250, 237, 222);
 }
-#meb{
+
+#meb {
   padding-top: 8%;
   padding-bottom: 14%;
 }
-#meb a{
+
+#meb a {
   color: rgb(250, 237, 222);
   font-weight: bold;
   text-align: center;
@@ -381,7 +410,7 @@ background-color: black;
   font-size: 20px;
   letter-spacing: 2px;
   border: 4px solid #201f21;
-  padding:5px 20px;
+  padding: 5px 20px;
   height: fit-content;
   align-self: center;
   border-radius: 20px;
@@ -390,36 +419,41 @@ background-color: black;
   margin-top: 8%;
   margin-left: 25%;
 }
-#popImg{
+
+#popImg {
   width: 30%;
   padding-top: 10%;
   padding-left: 29%;
 }
-#pop i{
-position: absolute;
-top: 20px;
+
+#pop i {
+  position: absolute;
+  top: 20px;
   left: 330px;
-  font-size:36px;
+  font-size: 36px;
 }
 
-#meb a:hover{
-color: #DEBAD6;
-background-color: black;
+#meb a:hover {
+  color: #DEBAD6;
+  background-color: black;
 }
 
-.track{
+.track {
   background-color: black;
   padding-top: 8%;
   padding-left: 14%;
   padding-bottom: 8%;
   margin-top: 5%;
 }
-.rouImg{
-  background: url("../images/Fitness/plan.jpg")  no-repeat center / cover;;
+
+.rouImg {
+  background: url("../images/Fitness/plan.jpg") no-repeat center / cover;
+  ;
   width: 85%;
   height: 600px;
 }
-.plan{
+
+.plan {
   background-color: rgb(177, 142, 223);
   margin-right: 20%;
   padding-top: 3%;
@@ -430,20 +464,23 @@ background-color: black;
   padding-right: 3%;
   padding-left: 3%;
 }
-.plan h3{
+
+.plan h3 {
   font-size: 40px;
   line-height: 70px;
   font-weight: bolder;
   text-align: center;
   color: black;
 }
-.reveal{
+
+.reveal {
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(130px);
   opacity: 0;
   transition: all 1s ease;
 }
-.reveal.active{
+
+.reveal.active {
   transform: translateY(0px);
   opacity: 1;
 }
@@ -451,33 +488,38 @@ background-color: black;
 @media only screen and (max-width: 1000px) {
   .fitn {
     display: grid;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 130px;
     margin-left: 2%;
-    }
-    .fitn h2{
-      text-align: center;
-      margin-left: 2%;
+  }
+
+  .fitn h2 {
+    text-align: center;
+    margin-left: 2%;
     margin-top: 2%;
-    }
-    .cat {
-      margin-top: -19%;
-    }
-    .cat h3 {
-      font-size: 38px;
-      text-align: center;
-    }
-    .training{
-      display: grid;
-  grid-template-columns: 1fr;
-  margin-left: 8%;
-    }
-    .training video {
-      width: 80%;
-      margin-left: 8%;
-      margin-top: -28%;
-      border-radius: 25px;
-    }
+  }
+
+  .cat {
+    margin-top: -19%;
+  }
+
+  .cat h3 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .training {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 8%;
+  }
+
+  .training video {
+    width: 80%;
+    margin-left: 8%;
+    margin-top: -28%;
+    border-radius: 25px;
+  }
 
   .item2 p,
   ol li {
@@ -497,82 +539,99 @@ background-color: black;
   h2 {
     margin-left: 20%;
   }
-  h3{
+
+  h3 {
     font-size: 35px;
   }
+
   p,
-ul,
-ol {
-  font-size: 25px;
-}
+  ul,
+  ol {
+    font-size: 25px;
+  }
 
   .btn-container {
     margin-top: -10%;
-    
+
   }
-  .btn-container button{
+
+  .btn-container button {
     padding: 5%;
     width: 50%;
-  font-size: 23px;
-  margin-left: -5%;
+    font-size: 23px;
+    margin-left: -5%;
   }
-.contain {
-  width:80%
-}
-#tip video{
-  margin-left: -10%;
-  margin-top: -100%;
-}
-.item2 h3{
-  width: 600px;
-  padding-left: -10%;
-  font-size: 40px;
-}
-.item2{
- margin-right: 40%;
- margin-left: -30%;
- margin-top: -40%;
-}
-.plan{
-  top: 42%;
-  left: 200px;
-  padding-top: -10%;
-  padding-bottom: 2%;
-  margin-right: 20%;
-}
-.plan h3{
-  font-size: 30px;
-  line-height: 50px;
-}
-.track button{
-  margin-top: 15%;
-}
-#book a{
-  margin-left: 30%;
-}
-.tips{
-  padding:10px 80px;
-  font-size: 20px;
-}
-#pop{
-  display: none;
-  width: 45%;
-  top: 2300px;
-  left: 290px;
-}
-#pop i{
-  position: absolute;
-  top: 20px;
-  left: 360px;
-  font-size:56px;
+
+  .contain {
+    width: 80%
   }
-  #popImg{
+
+  #tip video {
+    margin-left: -10%;
+    margin-top: -100%;
+  }
+
+  .item2 h3 {
+    width: 600px;
+    padding-left: -10%;
+    font-size: 40px;
+  }
+
+  .item2 {
+    margin-right: 40%;
+    margin-left: -30%;
+    margin-top: -40%;
+  }
+
+  .plan {
+    top: 42%;
+    left: 200px;
+    padding-top: -10%;
+    padding-bottom: 2%;
+    margin-right: 20%;
+  }
+
+  .plan h3 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .track button {
+    margin-top: 15%;
+  }
+
+  #book a {
+    margin-left: 30%;
+  }
+
+  .tips {
+    padding: 10px 80px;
+    font-size: 20px;
+  }
+
+  #pop {
+    display: none;
+    width: 45%;
+    top: 2300px;
+    left: 290px;
+  }
+
+  #pop i {
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    font-size: 56px;
+  }
+
+  #popImg {
     width: 40%;
   }
-  #pop h3{
+
+  #pop h3 {
     font-size: 35px;
   }
-  #meb a{
+
+  #meb a {
     padding: 15px 30px;
     font-size: 25px;
   }
