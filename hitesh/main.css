@@ -270,7 +270,8 @@ header>.nav>nav>ul>li>a:hover {
 
 /* FOOTER DATA STARTS HERE ================================================== */
 footer {
-    font-family: Nunito, sans-serif; /*ADDED THIS FONT - HITESH */
+    font-family: Nunito, sans-serif;
+    /*ADDED THIS FONT - HITESH */
     background-color: #281C2D;
     color: #fff;
     padding: 40px 0;

@@ -9,7 +9,7 @@ footer {
 .footer-title {
     font-size: 24px;
     font-weight: bold;
-    color: #fff;    
+    color: #fff;
     margin-bottom: 10px;
 }
 
@@ -19,12 +19,14 @@ footer {
 
 .footer-container {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line on smaller screens */
     justify-content: space-evenly;
 }
 
 .footer-links {
-    flex: 1; /* Make the links container flexible to take available space */
+    flex: 1;
+    /* Make the links container flexible to take available space */
     margin-bottom: 20px;
 }
 
@@ -77,12 +79,15 @@ footer {
 /* Media Query for responsiveness */
 @media screen and (max-width: 768px) {
     .footer-container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items when stacked */
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        align-items: center;
+        /* Center items when stacked */
     }
 
     .footer-links {
-        text-align: center; /* Center the links on smaller screens */
+        text-align: center;
+        /* Center the links on smaller screens */
         margin-bottom: 0;
     }
 }

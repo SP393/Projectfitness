@@ -6,8 +6,10 @@
 
 .feedbackcontainer {
     width: 98%;
-    max-width: 1328px; /* Set a maximum width for the container */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 1328px;
+    /* Set a maximum width for the container */
+    margin: 0 auto;
+    /* Center the container horizontally */
     display: grid;
     grid-template-columns: 1fr;
     align-items: flex-start;
@@ -28,7 +30,8 @@
 }
 
 .right-container {
-    padding: 1rem; /* Reduce padding for smaller screens */
+    padding: 1rem;
+    /* Reduce padding for smaller screens */
     display: grid;
 }
 
@@ -37,7 +40,8 @@
 }
 
 .form-data {
-    padding: 1rem; /* Reduce padding for smaller screens */
+    padding: 1rem;
+    /* Reduce padding for smaller screens */
 }
 
 .customer-review-img {
@@ -59,7 +63,8 @@ select {
 }
 
 .submit-container {
-    margin: 1rem 0; /* Add margin to the submit container */
+    margin: 1rem 0;
+    /* Add margin to the submit container */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +77,8 @@ select {
     color: #fff;
     font-weight: 600;
     border-radius: 5px;
-    width: 49%; /* Make the button full width on smaller screens */
+    width: 49%;
+    /* Make the button full width on smaller screens */
 }
 
 input[type="text"],
@@ -98,9 +104,10 @@ textarea {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 }
 
- /* Add styles for the button */
- .myButton {
-    background-color: #3F51B5; /* Green */
+/* Add styles for the button */
+.myButton {
+    background-color: #3F51B5;
+    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -111,12 +118,14 @@ textarea {
     margin: 4px 15px;
     cursor: pointer;
     border-radius: 8px;
-    transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
+    transition: transform 0.3s ease-in-out;
+    /* Add transition for smooth animation */
 }
 
 /* Add styles for the button hover effect */
 .myButton:hover {
-    transform: scale(1.1); /* Zoom in on hover */
+    transform: scale(1.1);
+    /* Zoom in on hover */
 }
 
 @media (min-width:1000px) {
@@ -132,7 +141,8 @@ textarea {
 
 @media (max-width: 1000px) {
     .hidding-img {
-        display: none; /* Hidden below 1000px */
+        display: none;
+        /* Hidden below 1000px */
     }
 }
 
@@ -141,11 +151,15 @@ textarea {
         width: 100%;
         margin: 5px;
     }
+
     .feedbackcontainer {
-        padding: 1rem; /* Reduce container padding further */
+        padding: 1rem;
+        /* Reduce container padding further */
     }
+
     .form-data {
-        padding: 0.5rem; /* Further reduce padding for form data */
+        padding: 0.5rem;
+        /* Further reduce padding for form data */
     }
 }
 
@@ -155,7 +169,7 @@ textarea {
     color: #fff;
 }
 
-.error{
+.error {
     color: red;
     font-size: 19px;
     font-weight: 400;
