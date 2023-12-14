@@ -147,6 +147,9 @@ Paths -
    - CSS File Path -  nayeem/blog/blog.css
    - JS File - nayeem/blog/blog.js
 
+
+![Screenshot (583)](https://github.com/SP393/Projectfitness/assets/44882242/c11f0484-31f1-4d48-9bfb-5bd343434086)
+
  # FAQS
 
 The FAQ (Frequently Asked Questions) Page provides concise and informative answers to common queries related to fitness, nutrition, and well-being. Designed for user convenience, the page incorporates a search feature, allowing users to quickly find relevant information. The page layout is enhanced with a responsive design, making it accessible across various devices.
@@ -160,6 +163,8 @@ Paths -
    - HTML File Path - nayeem/faq/faq.html
    -  CSS File Path -  nayeem/faq/faq.css
    - JS File - nayeem/faq/faq.js
+![Screenshot (585)](https://github.com/SP393/Projectfitness/assets/44882242/35237dea-0eed-474e-a08f-0798efd7fb8a)
+
 
  # BMI calculator
 
@@ -177,6 +182,7 @@ Paths -
    - CSS File Path -  nayeem/bmi/bmi.css
    - JS File - nayeem/bmi/bmi.js
 
+![Screenshot (584)](https://github.com/SP393/Projectfitness/assets/44882242/202a4b36-216c-4f12-bb38-e0e842a16183)
 
 # Learning Curve -
 
