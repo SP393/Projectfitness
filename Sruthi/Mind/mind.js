@@ -2,9 +2,9 @@
 // Javascript for mind webpage
 
 // Creating array to store images for carousel
-let selfImages = ['/images/Mind/self1.jpg', '/images/Mind/self2.jpg', '/images/Mind/self4.jpg'];
-let anxiousImages = ['/images/Mind/anx.jpg', '/images/Mind/anxious2.jpg', '/images/Mind/anxious3.jpg'];
-let stressImages = ['/images/Mind/stressed.jpg', '/images/Mind/stress2.jpg', '/images/Mind/stress3.jpg'];
+let selfImages = ['./images/Mind/self1.jpg', './images/Mind/self2.jpg', './images/Mind/self4.jpg'];
+let anxiousImages = ['./images/Mind/anx.jpg', './images/Mind/anxious2.jpg', './images/Mind/anxious3.jpg'];
+let stressImages = ['./images/Mind/stressed.jpg', './images/Mind/stress2.jpg', './images/Mind/stress3.jpg'];
 
 // Changing images after interval automatically
 let i = 0;

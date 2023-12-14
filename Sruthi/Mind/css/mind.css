@@ -233,7 +233,7 @@ section {
   #selfcare {
     width: 70%;
     height: 500px;
-    background: url(/images/Mind/self1.jpg)
+    background: url(../images/Mind/self1.jpg)
       no-repeat center / cover;
     border-radius: 8px;
     margin-left: -2%;
@@ -242,7 +242,7 @@ section {
   #stress {
     width: 70%;
     height: 500px;
-    background: url(/images/Mind/stressed.jpg)
+    background: url(../images/Mind/stressed.jpg)
       no-repeat center / cover;
     border-radius: 8px;
     margin-left: -2%;
@@ -254,7 +254,7 @@ section {
   #anxi {
     width: 70%;
     height: 500px;
-    background: url(/images/Mind/anx.jpg)
+    background: url(../images/Mind/anx.jpg)
       no-repeat center / cover;
     border-radius: 8px;
     margin-left: -2%;

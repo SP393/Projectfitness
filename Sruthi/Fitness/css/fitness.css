@@ -415,7 +415,7 @@ background-color: black;
   margin-top: 5%;
 }
 .rouImg{
-  background: url("/images/Fitness/plan.jpg")  no-repeat center / cover;;
+  background: url("../images/Fitness/plan.jpg")  no-repeat center / cover;;
   width: 85%;
   height: 600px;
 }
