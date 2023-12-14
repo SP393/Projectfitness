@@ -6,7 +6,7 @@ This project contains a fitness website that is created using HTML, CSS and Java
 
 # Team Members -
 # Name: Mapreet Gulati
-# Student Number: N01604191
+# Student Number: N01547963
 
 # Name: Hitesh Jha
 # Student Number: N0161030
@@ -15,7 +15,7 @@ This project contains a fitness website that is created using HTML, CSS and Java
 # Student Number: N01618202
 
 # Name: Nayeem Khan
-# Student Number: N01604191
+# Student Number: N01608790
 
 # Contents
 
@@ -25,7 +25,7 @@ This project contains a fitness website that is created using HTML, CSS and Java
 - Individual Features (includes) -
   - Feature Description
   - Learning Curve
-  -Challenges
+  - Challenges
 
 
 # Introduction
