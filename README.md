@@ -8,8 +8,8 @@ This project contains a fitness website that is created using HTML, CSS and Java
 # Name: Mapreet Gulati
 # Student Number: N01604191
 
-# Name: Hitesh
-# Student Number: N01604191
+# Name: Hitesh Jha
+# Student Number: N0161030
 
 # Name: Sruthi Jayaprakash Pandiath
 # Student Number: N01618202
