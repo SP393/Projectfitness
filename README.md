@@ -329,8 +329,8 @@ Creating the "Home Page - U&I Fitness" involves fundamental front-end developmen
 - [freeCodeCamp](https://www.freecodecamp.org/)
 
 ## Screenshots
-<!-- Add images or screenshots related to the "Home Page - U&I Fitness" feature -->
-![Home Page - U&I Fitness](path/to/home_page_screenshot.png)
+![Alt text](<Screenshot 2023-12-14 at 3.19.29 PM.png>)
+![Alt text](<Screenshot 2023-12-14 at 3.19.45 PM.png>)
 
 ---
 
@@ -351,4 +351,46 @@ The purpose of this feature is to educate users about nutrition, offering guidan
 Creating the "Nutrition Page" involves intermediate front-end development skills. Resources for learning:
 - [CSS-Tricks](https://css-tricks.com/)
 - [JavaScript.info](https://javascript.info/)
-- [Bootstrap Documentation](https://getbootstrap.com
+
+## Screenshots
+![Alt text](<Screenshot 2023-12-14 at 3.23.39 PM.png>)
+
+# Login and Registeration Page
+
+## Description
+The "Login and Registeration Page" within the U&I Fitness application provides users with login and registeration form. 
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+The purpose of this feature is to login and register into the website.
+
+## Learning Curve
+Creating the "Login and Registeration Page" involves intermediate front-end development skills. Resources for learning:
+- [CSS-Tricks](https://css-tricks.com/)
+
+## Screenshots
+![Alt text](<Screenshot 2023-12-14 at 3.23.15 PM.png>)
+
+# Contact Us Page
+
+## Description
+The "Contact Us Page" within the U&I Fitness application provides users to raise query or inquire.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+The purpose of this feature is to raise a form for enquiry.
+
+## Learning Curve
+Creating the "Contact Us Page" involves intermediate front-end development skills. Resources for learning:
+- [CSS-Tricks](https://css-tricks.com/)
+
+## Screenshots
+![Alt text](<Screenshot 2023-12-14 at 3.23.48 PM.png>)
